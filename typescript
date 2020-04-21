@@ -1,0 +1,296 @@
+Script started on 2020-01-21 07:43:48+0000
+]0;ec2-user@ip-172-31-41-98:~[?1034h[ec2-user@ip-172-31-41-98 ~]$ scri[K[K[K[Ktty
+/dev/pts/1
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ umansk
+bash: umansk: command not found
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ u[Kwhich w[Kumask
+/usr/bin/umask
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ umask
+0002
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ ls
+[0m[34;42mprofessional-script[0m  test1.txt  typescript
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ whre [K[K[Kere test1.txt 
+bash: where: command not found
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ whe[Kre[K[Kes[Kre [Kis test1.txt
+test1:
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ df -k
+Filesystem     1K-blocks    Used Available Use% Mounted on
+devtmpfs          485584       0    485584   0% /dev
+tmpfs             503636       0    503636   0% /dev/shm
+tmpfs             503636     400    503236   1% /run
+tmpfs             503636       0    503636   0% /sys/fs/cgroup
+/dev/xvda1       8376300 1297112   7079188  16% /
+tmpfs             100728       0    100728   0% /run/user/1000
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ du -k
+4	./.ssh
+0	./professional-script/lodhi
+140	./professional-script
+188	.
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+devtmpfs          485584       0    485584   0% /dev
+tmpfs             503636       0    503636   0% /dev/shm
+tmpfs             503636     400    503236   1% /run
+tmpfs             503636       0    503636   0% /sys/fs/cgroup
+/dev/xvda1       8376300 1297112   7079188  16% /
+tmpfs             100728       0    100728   0% /run/user/1000
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ du
+4	./.ssh
+0	./professional-script/lodhi
+140	./professional-script
+188	.
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ pwd
+/home/ec2-user
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ du /home/ec2-user
+4	/home/ec2-user/.ssh
+0	/home/ec2-user/professional-script/lodhi
+140	/home/ec2-user/professional-script
+188	/home/ec2-user
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ du -k /home/ec2-user
+4	/home/ec2-user/.ssh
+0	/home/ec2-user/professional-script/lodhi
+140	/home/ec2-user/professional-script
+188	/home/ec2-user
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ du -j[Kh /home/ec2-user
+4.0K	/home/ec2-user/.ssh
+0	/home/ec2-user/professional-script/lodhi
+140K	/home/ec2-user/professional-script
+188K	/home/ec2-user
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ mount
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+devtmpfs on /dev type devtmpfs (rw,nosuid,size=485584k,nr_inodes=121396,mode=755)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,mode=755)
+tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+/dev/xvda1 on / type xfs (rw,noatime,attr2,inode64,noquota)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=22,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=14175)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+mqueue on /dev/mqueue type mqueue (rw,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,relatime)
+sunrpc on /var/lib/nfs/rpc_pipefs type rpc_pipefs (rw,relatime)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=100728k,mode=700,uid=1000,gid=1000)
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ ls -lrt
+total 8
+-rw-rw-r-- 1 ec2-user ec2-user   35 Jan 20 14:36 test1.txt
+drwxrwxrwx 3 ec2-user ec2-user  272 Jan 21 00:58 [0m[34;42mprofessional-script[0m
+-rw-rw-r-- 1 ec2-user ec2-user 4096 Jan 21 08:28 typescript
+]0;ec2-user@ip-172-31-41-98:~[ec2-user@ip-172-31-41-98 ~]$ cd professional-script
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ ls -lrt
+total 128
+-rwxrwxrwx 1 ec2-user ec2-user 83209 Jan 18 09:12 [0m[01;32mmessages[0m
+-rwxrwxr-- 1 ec2-user ec2-user   177 Jan 18 09:22 [01;32mpull-data[0m
+-rw-rw-r-- 1 ec2-user ec2-user   275 Jan 18 23:33 data.txt
+-rwxrwxr-x 1 ec2-user ec2-user   162 Jan 19 10:10 [01;32mbackup[0m
+-rwxrwxrwx 1 ec2-user ec2-user   226 Jan 19 10:13 [01;32mreadiput[0m
+-rw-rw-r-- 1 ec2-user ec2-user    38 Jan 19 13:09 commands
+-rwxrwxrwx 1 ec2-user ec2-user   135 Jan 19 13:56 [01;32mcheck.sh[0m
+-rw-rw-r-- 1 ec2-user ec2-user   212 Jan 19 13:56 log.txt
+-rwxrwxr-x 1 ec2-user ec2-user   135 Jan 19 14:32 [01;32mdemo.sh[0m
+lrwxrwxrwx 1 ec2-user ec2-user     8 Jan 20 01:03 [01;36msymboliclink_example[0m -> test.txt
+-rwxrwxrwx 1 ec2-user ec2-user   275 Jan 20 07:21 [01;32mmail.sh[0m
+-rw------- 1 ec2-user ec2-user   244 Jan 20 08:59 nohup.out
+lrwxrwxrwx 1 ec2-user ec2-user    34 Jan 20 19:02 [01;36msoftdic[0m -> [34;42m/home/ec2-user/professional-script[0m
+drwxrwxr-x 2 ec2-user ec2-user     6 Jan 20 20:12 [01;34mlodhi[0m
+-rw-rw-r-- 1 ec2-user ec2-user   196 Jan 21 00:56 test.txt
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ more backup
+#!/bin/bash
+
+NOW=$(date +"%a")
+case $NOW in
+	Mon)	
+		echo "Full backup";;
+	Tue|Wed|Thu|Fri)
+		echo "Partial backup";;
+	Sat|Sun)	
+		echo "No backup";;
+	*) ;;
+esac
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ more readiput
+#!/bin/bash
+# This script will rename a file
+
+echo Enter the file name to be renamed
+read oldfilename
+
+echo Enter the new file name
+read newfilename
+
+mv $oldfilename $newfilename
+echo The file has been renamed as $newfilename
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ ll
+total 128
+-rwxrwxr-x 1 ec2-user ec2-user   162 Jan 19 10:10 [0m[01;32mbackup[0m
+-rwxrwxrwx 1 ec2-user ec2-user   135 Jan 19 13:56 [01;32mcheck.sh[0m
+-rw-rw-r-- 1 ec2-user ec2-user    38 Jan 19 13:09 commands
+-rw-rw-r-- 1 ec2-user ec2-user   275 Jan 18 23:33 data.txt
+-rwxrwxr-x 1 ec2-user ec2-user   135 Jan 19 14:32 [01;32mdemo.sh[0m
+drwxrwxr-x 2 ec2-user ec2-user     6 Jan 20 20:12 [01;34mlodhi[0m
+-rw-rw-r-- 1 ec2-user ec2-user   212 Jan 19 13:56 log.txt
+-rwxrwxrwx 1 ec2-user ec2-user   275 Jan 20 07:21 [01;32mmail.sh[0m
+-rwxrwxrwx 1 ec2-user ec2-user 83209 Jan 18 09:12 [01;32mmessages[0m
+-rw------- 1 ec2-user ec2-user   244 Jan 20 08:59 nohup.out
+-rwxrwxr-- 1 ec2-user ec2-user   177 Jan 18 09:22 [01;32mpull-data[0m
+-rwxrwxrwx 1 ec2-user ec2-user   226 Jan 19 10:13 [01;32mreadiput[0m
+lrwxrwxrwx 1 ec2-user ec2-user    34 Jan 20 19:02 [01;36msoftdic[0m -> [34;42m/home/ec2-user/professional-script[0m
+lrwxrwxrwx 1 ec2-user ec2-user     8 Jan 20 01:03 [01;36msymboliclink_example[0m -> test.txt
+-rw-rw-r-- 1 ec2-user ec2-user   196 Jan 21 00:56 test.txt
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ more check.sh
+#!/bin/bash 
+set -xv
+pwd
+if [ -f /home/ec2-user/professional-script/test.txt ];then
+echo "file exist"
+else
+echo "file doebt esist"
+#fi
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ more demo.sh
+#!/bin/bash 
+set -xv
+pwd
+if [ -f /home/ec2-user/professional-script/test.txt ];then
+echo "file exist"
+else
+echo "file doebt esist"
+#fi
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ more mail.sh
+#!/bin/bash
+set -x
+filepath=`pwd`
+mail_from="kesavlodhi@gmail.com"
+mail_to="kesavlodhi@in.outlook.in"
+#if [[-f $filepath/test.txt]]
+# then
+# echo file exist
+#message=`cat test.txt | awk '{print $4}'`
+ subject="test"
+#fi
+
+ mail -s "$subject" -r $mail_from $mail_to < test.txt
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ clear
+[3J[H[2J]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ clear
+[3J[H[2J]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ clearmore mail.shdemo.shmail.sh
+#!/bin/bash
+set -x
+filepath=`pwd`
+mail_from="kesavlodhi@gmail.com"
+mail_to="kesavlodhi@in.outlook.in"
+#if [[-f $filepath/test.txt]]
+# then
+# echo file exist
+#message=`cat test.txt | awk '{print $4}'`
+ subject="test"
+#fi
+
+ mail -s "$subject" -r $mail_from $mail_to < test.txt
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ ll
+total 128
+-rwxrwxr-x 1 ec2-user ec2-user   162 Jan 19 10:10 [0m[01;32mbackup[0m
+-rwxrwxrwx 1 ec2-user ec2-user   135 Jan 19 13:56 [01;32mcheck.sh[0m
+-rw-rw-r-- 1 ec2-user ec2-user    38 Jan 19 13:09 commands
+-rw-rw-r-- 1 ec2-user ec2-user   275 Jan 18 23:33 data.txt
+-rwxrwxr-x 1 ec2-user ec2-user   135 Jan 19 14:32 [01;32mdemo.sh[0m
+drwxrwxr-x 2 ec2-user ec2-user     6 Jan 20 20:12 [01;34mlodhi[0m
+-rw-rw-r-- 1 ec2-user ec2-user   212 Jan 19 13:56 log.txt
+-rwxrwxrwx 1 ec2-user ec2-user   275 Jan 20 07:21 [01;32mmail.sh[0m
+-rwxrwxrwx 1 ec2-user ec2-user 83209 Jan 18 09:12 [01;32mmessages[0m
+-rw------- 1 ec2-user ec2-user   244 Jan 20 08:59 nohup.out
+-rwxrwxr-- 1 ec2-user ec2-user   177 Jan 18 09:22 [01;32mpull-data[0m
+-rwxrwxrwx 1 ec2-user ec2-user   226 Jan 19 10:13 [01;32mreadiput[0m
+lrwxrwxrwx 1 ec2-user ec2-user    34 Jan 20 19:02 [01;36msoftdic[0m -> [34;42m/home/ec2-user/professional-script[0m
+lrwxrwxrwx 1 ec2-user ec2-user     8 Jan 20 01:03 [01;36msymboliclink_example[0m -> test.txt
+-rw-rw-r-- 1 ec2-user ec2-user   196 Jan 21 00:56 test.txt
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ ll
+total 128
+-rwxrwxr-x 1 ec2-user ec2-user   162 Jan 19 10:10 [0m[01;32mbackup[0m
+-rwxrwxrwx 1 ec2-user ec2-user   135 Jan 19 13:56 [01;32mcheck.sh[0m
+-rw-rw-r-- 1 ec2-user ec2-user    38 Jan 19 13:09 commands
+-rw-rw-r-- 1 ec2-user ec2-user   275 Jan 18 23:33 data.txt
+-rwxrwxr-x 1 ec2-user ec2-user   135 Jan 19 14:32 [01;32mdemo.sh[0m
+drwxrwxr-x 2 ec2-user ec2-user     6 Jan 20 20:12 [01;34mlodhi[0m
+-rw-rw-r-- 1 ec2-user ec2-user   212 Jan 19 13:56 log.txt
+-rwxrwxrwx 1 ec2-user ec2-user   275 Jan 20 07:21 [01;32mmail.sh[0m
+-rwxrwxrwx 1 ec2-user ec2-user 83209 Jan 18 09:12 [01;32mmessages[0m
+-rw------- 1 ec2-user ec2-user   244 Jan 20 08:59 nohup.out
+-rwxrwxr-- 1 ec2-user ec2-user   177 Jan 18 09:22 [01;32mpull-data[0m
+-rwxrwxrwx 1 ec2-user ec2-user   226 Jan 19 10:13 [01;32mreadiput[0m
+lrwxrwxrwx 1 ec2-user ec2-user    34 Jan 20 19:02 [01;36msoftdic[0m -> [34;42m/home/ec2-user/professional-script[0m
+lrwxrwxrwx 1 ec2-user ec2-user     8 Jan 20 01:03 [01;36msymboliclink_example[0m -> test.txt
+-rw-rw-r-- 1 ec2-user ec2-user   196 Jan 21 00:56 test.txt
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | AWK[K[K[Kak[Kwk '{print}'
+this is line ek
+this is line two
+this is line three
+this is line four
+this is line five
+this is line six
+this is line seven 
+this is line eight
+this is line nine
+this is line ten
+this is line ten
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print}'[C '{print}'N '{print}'R '{print}'= '{print}'= '{print}'1 '{print}'
+awk: fatal: cannot open file `{print}' for reading (No such file or directory)
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk NR==1 '{print}'[1P{print}'[C[1@'
+this is line ek
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk 'NR==1 {print}' }'$}'1}'
+this
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk 'NR==1 {print $1}'[C[C[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C [1@'[C[C[C[C[C[C[C[C[C[C[C[C[K
+this
+this
+this
+this
+this
+this
+this
+this
+this
+this
+this
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print $1}' | wc -w
+11
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print $1}' | wc -wcw
+     11      55
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print $1}' | wc -cw[K
+55
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print $1}' | wc -c[Kl
+11
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print $1}' | wc -l[K[K[K[K[Kuniq
+this
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print $1}' | uniq | [K[K[K[K[K[K[Kwc -l | i[Kuniq
+11
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ cat test.txt | awk '{print $1}' | wc -l | uniq
+11
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ set -o monitor
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ jobs
+]0;ec2-user@ip-172-31-41-98:~/professional-script[ec2-user@ip-172-31-41-98 professional-script]$ ll
+total 128
+-rwxrwxr-x 1 ec2-user ec2-user   162 Jan 19 10:10 [0m[01;32mbackup[0m
+-rwxrwxrwx 1 ec2-user ec2-user   135 Jan 19 13:56 [01;32mcheck.sh[0m
+-rw-rw-r-- 1 ec2-user ec2-user    38 Jan 19 13:09 commands
+-rw-rw-r-- 1 ec2-user ec2-user   275 Jan 18 23:33 data.txt
+-rwxrwxr-x 1 ec2-user ec2-user   135 Jan 19 14:32 [01;32mdemo.sh[0m
+drwxrwxr-x 2 ec2-user ec2-user     6 Jan 20 20:12 [01;34mlodhi[0m
+-rw-rw-r-- 1 ec2-user ec2-user   212 Jan 19 13:56 log.txt
+-rwxrwxrwx 1 ec2-user ec2-user   275 Jan 20 07:21 [01;32mmail.sh[0m
+-rwxrwxrwx 1 ec2-user ec2-user 83209 Jan 18 09:12 [01;32mmessages[0m
+-rw------- 1 ec2-user ec2-user   244 Jan 20 08:59 nohup.out
+-rwxrwxr-- 1 ec2-user ec2-user   177 Jan 18 09:22 [01;32mpull-data[0m
+-rwxrwxrwx 1 ec2-user ec2-user   226 Jan 19 10:13 [01;32mreadiput[0m
+lrwxrwxrwx 1 ec2-user ec2-user    34 Jan 20 19:02 [01;36msoftdic[0m -> [34;42m/home/ec2-user/professional-script[0m
+lrwxrwxrwx 1 ec2-user ec2-user     8 Jan 20 01:03 [01;36msymboliclink_example[0m -> test.txt
+-rw-rw-r-- 1 ec2-user ec2-u

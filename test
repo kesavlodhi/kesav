@@ -1,0 +1,6 @@
+#!/bin/bash
+test=/home/ec2-user/work/exercise2
+if [ -d "$test" ];then
+cd $test
+echo "path is `pwd`"
+fi
